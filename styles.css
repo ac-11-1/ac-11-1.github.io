@@ -9,3 +9,15 @@ header {
   align-items: center;
   z-index: 100;
 }
+
+.start {
+  font-size: 2em;
+  color: black;
+}
+
+.links {
+  font-size: 1em;
+  color: blue;
+  margin-right: 40px;
+  font-weight: 500;
+}
