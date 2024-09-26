@@ -4,18 +4,79 @@
     <title>Aditya Chawla</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <style>
+    header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+
+    .start {
+     font-size: 2em;
+     color: black;
+    }
+
+    .navigate {
+  font-size: 1em;
+  color: gray;
+  margin-right: 200px;
+  font-weight: 500;
+    }
+    h2 {
+        color: black;
+    }
+    .middle {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 30px 100px;
+        width: 100%;
+        height: 100vh;
+    }
+    .middle a {
+        color:black;
+        text-decoration: underline overline;
+    }
+    .middle h2 {
+        font-size: 2.5em;
+        height: 20vh;
+    }
+    .nmiddle p {
+        font-size: 1.3em;
+    }
+    .nmiddle {
+        position: relative;
+        display: flex;
+        align-items: center;
+        padding: 30px 100px;
+        width: 100%;
+        height: 100vh;
+    }
+</style>
   </head>
   <body>
     <header>
       <div class="start">
         <h1>AC</h1>
       </div>
+      <div class="navigate">
         <nav>
           <a href="#abtme">About Me</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
         </nav>
+        </div>
     </header>
+    <section class="middle">
+        
+        <h2>This is <a href="#abtme">Aditya</a></h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Stick_Figure.svg">
+    </section>
   </body>
 </html>
